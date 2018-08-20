@@ -21,7 +21,7 @@ class Projects extends Component {
             </CardText>
             <CardActions border>
               <Button colored>GitHub</Button>
-              <Button colored>Live Demo</Button>
+              <Button href="https://morning-castle-65250.herokuapp.com/" colored >Live Demo</Button>
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
               <IconButton name="share" />
@@ -38,7 +38,7 @@ class Projects extends Component {
         <div className="projects-grid">
           {/* Project 1 */}
           <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-            <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover'}} >Procurement process</CardTitle>
+            <CardTitle style={{color: '#fff', height: '176px', background: 'url(http://blog.arcoptimizer.com/wp-content/uploads/2018/05/1526887184_comment-reparer-les-problemes-de-connexion-magento-avec-des-cookies-et-des-sessions.png) center / cover'}} >Procurement process</CardTitle>
             <CardText>
               A database management system for procurement process
             </CardText>
